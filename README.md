@@ -24,11 +24,11 @@ WHERE (payment_date BETWEEN "2005-06-15 00:00:00" AND "2005-06-18 23:59:59") AND
 
 ``` sql
 SELECT * FROM rental
-ORDER BY rental_id DESC
+ORDER BY rental_date DESC
 LIMIT 5;
 ```
 
-![Задача 3](https://raw.githubusercontent.com/Firewal7/SQL1/main/3.3.png)
+![Задача 3](https://raw.githubusercontent.com/Firewal7/SQL_part1/main/3.3.png)
 
 ## ЗАДАЧА 4
 
